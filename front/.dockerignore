@@ -1,0 +1,20 @@
+.dockerignore
+bun.lockb
+
+node_modules
+logs
+
+.env
+
+*~
+*.swp
+*.swo
+.DS_Store
+
+build
+dist
+
+# Ignorer les fichiers de documentation
+*.md
+
+package-lock.json
