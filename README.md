@@ -17,7 +17,7 @@ In this technical test, I was asked to propose, according to my vision, the thin
 
 Make sure that you have docker & docker-composer installed. Once it is good, run the docker-compose build to create the containers and run the backend and the frontend applications
 
-`cd project_folder && docker-compose build -d`
+`cd project_folder && docker-compose up -d`
 
 Once the containers are up, the front application will be server at `http://localhost`
 You must ensure that localhost is free and that it does not serve any application
